@@ -1,0 +1,27 @@
+
+state={
+	id=62
+	name="STATE_62"
+	manpower = 806221
+	
+	
+	state_category = large_town
+
+	history={
+		
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			fuel_silo = 1
+			industrial_complex = 1
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		349 3258 3312 3340 9388 13309 13310
+	}
+
+	local_supplies=3.0 
+}

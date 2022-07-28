@@ -1,0 +1,36 @@
+state={
+	id=56
+	name="STATE_56"
+	
+	manpower = 458467
+	
+	state_category = town
+
+	history={
+		owner = GER
+
+		victory_points = {
+			13249 5
+		}
+	
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			fuel_silo = 1
+			241 = {
+				naval_base = 8
+
+			}
+			air_base = 3
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		241 11360 13249 13250
+	}
+
+	local_supplies=14.0 
+}
