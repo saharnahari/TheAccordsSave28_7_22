@@ -8,7 +8,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = GER
+		owner = CGG
 		
 		victory_points = {
 			3530 15
@@ -29,7 +29,7 @@ state={
 			industrial_complex = 2
 
 		}
-		add_core_of = GER
+		add_core_of = CGG
 		
 
 	}

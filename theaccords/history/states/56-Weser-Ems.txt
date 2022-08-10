@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = GER
+		owner = CGG
 
 		victory_points = {
 			13249 5
@@ -18,14 +18,14 @@ state={
 			industrial_complex = 1
 			dockyard = 1
 			fuel_silo = 1
-			241 = {
+			13249 = {
 				naval_base = 8
 
 			}
 			air_base = 3
 
 		}
-		add_core_of = GER
+		add_core_of = CGG
 	}
 
 	provinces={

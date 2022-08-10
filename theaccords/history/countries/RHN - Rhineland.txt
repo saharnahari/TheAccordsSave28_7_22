@@ -1,0 +1,25 @@
+﻿capital = 51
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+recruit_character = RHN_hans_adam_dorten
+
+set_convoys = 38
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 46
+	fascism = 11
+	communism = 23
+	neutrality = 20
+}
+
+

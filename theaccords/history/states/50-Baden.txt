@@ -7,7 +7,7 @@ state={
 
 	state_category = metropolis
 	history={
-		owner = GER
+		owner = CGG
 		victory_points = {
 			9517 35
 		}
@@ -28,8 +28,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = GER
-
+		add_core_of = CGG
 	}
 
 	provinces={

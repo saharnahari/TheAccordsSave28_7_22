@@ -1,0 +1,15 @@
+characters={
+	RHN_hans_adam_dorten={
+		name="Hans Adam Dorten"
+		portraits={
+			civilian={
+				large="GFX_portrait_RHN_hans_adam_dorten"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits = { puppet_of_french_occupation }
+			expire="1963.1.1.1"
+		}
+	}
+}

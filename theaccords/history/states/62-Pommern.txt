@@ -9,13 +9,13 @@ state={
 
 	history={
 		
-		owner = GER
+		owner = BWN
 		buildings = {
 			infrastructure = 3
 			fuel_silo = 1
 			industrial_complex = 1
 		}
-		add_core_of = GER
+		add_core_of = BWN
 
 	}
 

@@ -1,0 +1,32 @@
+﻿capital = 59
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 413
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 31
+	fascism = 11
+	communism = 29
+	neutrality = 29
+}
+
+create_country_leader = {
+	name = "Blank"
+	desc = "None"
+	picture = GFX_leader_unknown
+	ideology = leninism
+	traits = {
+		#
+	}
+}

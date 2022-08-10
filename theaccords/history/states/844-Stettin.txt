@@ -6,7 +6,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = GER
+		owner = GEE
 		
 		victory_points = {
 			6282 15
@@ -17,7 +17,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = GER
+		add_core_of = GEE
 		add_core_of = KSH
 	}
 

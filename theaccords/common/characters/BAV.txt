@@ -1,0 +1,15 @@
+characters={
+	BAV_ernst_toller={
+		name="Ernst Toller"
+		portraits={
+			civilian={
+				large="GFX_portrait_BAV_ernst_toller"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			traits = { revolutionary_author devoted_marxist shadow_of_calles_1 }
+			expire="1969.1.1.1"
+		}
+	}
+}
