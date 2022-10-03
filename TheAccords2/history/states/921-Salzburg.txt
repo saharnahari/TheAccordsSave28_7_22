@@ -1,0 +1,27 @@
+
+state={
+	id=921
+	name="STATE_921"
+	manpower = 367210
+	resources = {
+		tungsten = 2 
+	}
+	
+	state_category = town
+
+	history={
+		owner = HAB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = HAB
+
+	}
+
+	provinces={
+		13336 13337 13338 688 3675
+	}
+
+	local_supplies=12.0 
+}

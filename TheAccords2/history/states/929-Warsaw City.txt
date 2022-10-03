@@ -1,0 +1,34 @@
+
+state={
+	id=929
+	name="STATE_929"
+	manpower = 1342080
+	
+	state_category = city
+	
+	resources={
+	}
+
+	history={
+		owner = PND
+		
+		victory_points = {
+			3544 50 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+
+		add_core_of = PND
+
+	}
+
+	provinces={
+		3544
+	}
+
+	local_supplies=0.0 
+}

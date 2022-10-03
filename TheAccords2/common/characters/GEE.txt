@@ -1,0 +1,15 @@
+characters={
+	GEE_wilhelm_groener={
+		name="Wilhelm Groener"
+		portraits={
+			civilian={
+				large="GFX_portrait_GEE_wilhelm_groener"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			traits = {}
+			expire="1939.1.1.1"
+		}
+	}
+}

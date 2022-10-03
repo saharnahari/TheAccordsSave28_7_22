@@ -1,0 +1,15 @@
+characters={
+	CGG_ernst_thalmann ={
+		name="Ernst Thalmann"
+		portraits={
+			civilian={
+				large="GFX_portrait_CGG_ernst_thalmann"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits =  { hates_social_democrats leader_of_the_roter_frontkampferbund }
+			expire="1964.1.1.1"
+		}
+	}
+}

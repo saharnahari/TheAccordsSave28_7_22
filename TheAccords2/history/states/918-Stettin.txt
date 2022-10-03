@@ -1,0 +1,29 @@
+
+state={
+	id=918
+	name="STATE_918"
+	manpower = 234400
+	state_category = rural
+
+	history={
+		owner = GEE
+		
+		victory_points = {
+			6282 15
+		}
+		buildings = {
+			infrastructure = 4
+			6282 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = GEE
+		add_core_of = KSH
+	}
+
+	provinces={
+		6282 
+	}
+
+	local_supplies=7.0 
+}

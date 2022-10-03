@@ -1,0 +1,39 @@
+
+state={
+	id=66
+	name="STATE_66"
+	manpower = 3052726
+	resources={
+		steel=31 
+		aluminium=8
+		Chromium=3
+	}
+	
+	state_category = metropolis
+
+	history={
+		owner = GEE
+		victory_points = {
+			9570 15
+		}
+		victory_points = {
+			3438 5
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = GEE
+		add_core_of = SIL
+
+	}
+
+	provinces={
+		552 3283 3438 3485 3510 3545 6462 6534 6595 9470 9570 11517 13319 13320 13321
+	}
+
+	local_supplies=10.0 
+}

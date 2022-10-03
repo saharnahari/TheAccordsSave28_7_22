@@ -1,0 +1,918 @@
+﻿division_template = {
+	name = "spartacistische Miliz"
+	template_counter = 003
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "früh Schlachtwagendivision"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "städtische motorisierte Infanterie"
+	template_counter = 004
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		armored_car = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Rote Infanterie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Frontkampferbund Kavallerie"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		
+		location = 3326
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13249
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6325
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9347
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9347
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9320
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9320
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6389
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 317
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 11366
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13288
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13288
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 11264
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9281
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 309
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 247
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 11388
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6377
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6377
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6377
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 526
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9375
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6298
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6298
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9238
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 11359
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13259
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 3522
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 3522
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6487
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9560
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 11468
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 11402
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6513
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13258
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9264
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6218
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13253
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6535
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6622
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 495
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13245
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13245
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9509
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 3398
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 3355
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 11431
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 564
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9524
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 3524
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6488
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13261
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6444
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 589
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13264
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 6568
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13272
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13265
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9517
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 3530
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13269
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 13266
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9486
+		division_template = "spartacistische Miliz"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		
+		location = 9347
+		division_template = "früh Schlachtwagendivision"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		
+		location = 6377
+		division_template = "früh Schlachtwagendivision"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 3326
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 6263
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 6325
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 6487
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 13291
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 9375
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 6218
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 6513
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 13259
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 9264
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 564
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 13252
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 495
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 6488
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 6542
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 6568
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 13261
+		division_template = "Rote Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 9347
+		division_template = "Frontkampferbund Kavallerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 6377
+		division_template = "Frontkampferbund Kavallerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 526
+		division_template = "Frontkampferbund Kavallerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 11388
+		division_template = "Frontkampferbund Kavallerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 9509
+		division_template = "Frontkampferbund Kavallerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 3326
+		division_template = "Frontkampferbund Kavallerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 11533
+		division_template = "Frontkampferbund Kavallerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		
+		location = 13270
+		division_template = "Frontkampferbund Kavallerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+	
+		location = 6377
+		division_template = "städtische motorisierte Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+	
+		location = 6377
+		division_template = "städtische motorisierte Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	fleet = {
+		name = "Große Atlantikflotte"			
+		naval_base = 13249 
+		task_force = {				
+			name = "Angriffskraft 1"
+			location = 13249
+			
+			ship = { name = "RDM A" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "Kreuzer-U-Boot MK-1" } } }	
+			ship = { name = "RDM B" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "Kreuzer-U-Boot MK-1" } } }
+			ship = { name = "RDM C" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM D" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM E" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM F" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM G" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM P" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CGG version_name = "erweiterbares U-Boot MK-1" } } }				
+			ship = { name = "RDM Q" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CGG version_name = "erweiterbares U-Boot MK-1" } } }				
+			ship = { name = "RDM R" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CGG version_name = "erweiterbares U-Boot MK-1" } } }
+			ship = { name = "RDM S" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CGG version_name = "erweiterbares U-Boot MK-1" } } }		
+		}
+		task_force = {
+			name = "Angriffskraft 2"
+			location = 13249
+			
+				
+			ship = { name = "RDM H" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "Kreuzer-U-Boot MK-1" } } }
+			ship = { name = "RDM I" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM J" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM K" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM L" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM M" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM N" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM O" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_2 = { amount = 1 owner = CGG version_name = "U-Boot angreifen MK-1" } } }
+			ship = { name = "RDM T" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CGG version_name = "erweiterbares U-Boot MK-1" } } }				
+			ship = { name = "RDM U" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CGG version_name = "erweiterbares U-Boot MK-1" } } }				
+			ship = { name = "RDM V" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CGG version_name = "erweiterbares U-Boot MK-1" } } }
+			ship = { name = "RDM W" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CGG version_name = "erweiterbares U-Boot MK-1" } } }
+			ship = { name = "RDM X" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CGG version_name = "erweiterbares U-Boot MK-1" } } }
+			
+		}
+		task_force = {
+			name = "Küstenwache"
+			location = 3326
+			
+			ship = { name = "RDM Y" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM Z" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AA" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AB" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AC" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AD" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AE" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AF" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AG" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AH" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGG version_name = "Hamburg Class Mk-1" } } }
+			ship = { name = "RDM AI" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGG version_name = "Hamburg Class Mk-1" } } }
+		}
+		task_force = {
+			name = "Angriffsstreitkräfte"
+			location = 9347
+			
+			ship = { name = "RDM AJ" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGG version_name = "Bremen Class Mk-1" } } }
+			ship = { name = "RDM AK" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGG version_name = "Hamburg Class Mk-1" } } }
+			ship = { name = "RDM AL" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGG version_name = "Hamburg Class Mk-1" } } }
+			ship = { name = "RDM AM" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGG version_name = "Hamburg Class Mk-1" } } }
+		}
+		
+	}
+	fleet = {
+		name = "Baltische Flotte"			
+		naval_base = 13249 
+		task_force = {
+			name = "Küstenwache"
+			location = 6389
+			
+			ship = { name = "RDM AN" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CGG version_name = "Hamburg Class Mk-1" } } }
+			ship = { name = "RDM AO" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AP" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AQ" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AR" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AS" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+			ship = { name = "RDM AT" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CGG version_name = "Kiel Class MK-1" } } }
+		}
+	}
+}
+
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CGG"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 32
+	}
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CGG"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 60
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "CGG"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 60
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_0
+			creator = "CGG" 
+			version_name = "Roter Schlachtwagen Mk1 vielseitiger"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 60
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_1
+			creator = "CGG" 
+			version_name = "Roter Schlachtwagen Mk-3"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 12
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "CGG"
+			version_name = "Kiel Class MK-1"
+		}
+		name = "idk1" 
+		requested_factories = 2
+		progress = 0.72
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "CGG"
+			version_name = "Hamburg Class Mk-1"
+		}
+		name = "idk1" 
+		requested_factories = 3
+		progress = 0.83
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "CGG"
+			version_name = "erweiterbares U-Boot MK-1"
+		}
+		name = "idk2"
+		requested_factories = 2
+		progress = 0.64
+		amount = 9
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_2
+			creator = "CGG"
+			version_name = "erweiterbares U-Boot MK-2"
+		}
+		name = "idk2"
+		requested_factories = 2
+		progress = 0.31
+		amount = 7
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_2
+			creator = "CGG"
+			version_name = "U-Boot angreifen MK-1"
+		}
+		name = "idk2"
+		requested_factories = 1
+		progress = 0.47
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_2
+			creator = "CGG"
+			version_name = "Kreuzer-U-Boot MK-1"
+		}
+		name = "idk2"
+		requested_factories = 1
+		progress = 0.11
+		amount = 5
+	}
+	
+}

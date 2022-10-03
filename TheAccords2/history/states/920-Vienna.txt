@@ -1,0 +1,29 @@
+
+state={
+	id=920
+	name="STATE_920"
+	manpower = 1843759
+	
+	state_category = large_city
+
+	history={
+		owner = HAB
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			11666 65 
+		}
+
+		add_core_of = HAB
+
+	}
+
+	provinces={
+		11666 13335
+	}
+
+	local_supplies=0.0 
+}

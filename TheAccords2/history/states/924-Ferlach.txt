@@ -1,0 +1,30 @@
+
+state={
+	id=924
+	name="STATE_924"
+	manpower = 78200
+	
+	state_category = pastoral
+	
+	resources={
+		steel=2
+		aluminium=1
+		tungsten = 2
+	}
+
+	history={
+		owner = HAB
+		buildings = {
+			infrastructure = 3
+		}
+
+		add_core_of = HAB
+
+	}
+
+	provinces={
+		11612
+	}
+
+	local_supplies=0.0 
+}

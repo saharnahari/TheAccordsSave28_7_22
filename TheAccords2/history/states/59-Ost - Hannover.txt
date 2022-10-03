@@ -1,0 +1,62 @@
+
+state={
+	id=59
+	name="STATE_59"
+	
+	manpower = 3675901
+	
+	resources={
+		oil=2
+		steel=26
+	}
+	
+	state_category = megalopolis
+
+	history={
+		owner = CGG
+		
+		victory_points = {
+			6377 20 
+		}
+		victory_points = {
+			526 10 
+		}
+		victory_points = {
+			13255 10 
+		}
+		victory_points = {
+			11388 15
+		}
+		victory_points = {
+			9375 5
+		}
+		victory_points = {
+			6513 5 
+		}
+		victory_points = {
+			526 5 
+		}
+		victory_points = {
+			309 5 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 3
+			6325 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = CGG
+
+	}
+
+	provinces={
+		374 526 3271 3395 6218 6263 6298 6325 6349 6377 6513 9238 9264 9375 11402 11468 11493  247 309 336 3234 9281 11233 11264 11388 13257 13258 13259 13260 13423 13422 13421 13419 13418 13420
+	}
+
+	local_supplies=0.0 
+}

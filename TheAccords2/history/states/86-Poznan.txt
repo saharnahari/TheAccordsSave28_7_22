@@ -1,0 +1,42 @@
+state={
+	id=86
+	name="STATE_86"
+	manpower = 2317950
+	
+	
+	state_category = large_city
+	history={
+		owner = GEE
+		victory_points = {
+			6558 20
+		}
+		victory_points = {
+			13358 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			11232 = {
+				bunker = 1
+
+			}
+			9532 = {
+				bunker = 1
+
+			}
+			3381 = {
+				bunker = 1
+
+			}
+			air_base = 3
+		}
+		add_core_of = PND
+	}
+
+	provinces={
+		17 388 3381 3460 3532 6558 9532 11232 11558 13352 13353 13354 13355 13356 13357 243 13358
+	}
+
+	local_supplies=0.0 
+}

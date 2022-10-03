@@ -1,0 +1,31 @@
+state={
+	id=85
+	name="STATE_85"
+	manpower = 366730
+	
+	state_category = town
+	history={
+		owner = GEE
+		victory_points = {
+			362 15
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			362 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = POL
+		add_core_of = DNZ
+		add_core_of = GEE
+	}
+
+	provinces={
+		362 13368
+	}
+
+	local_supplies=0.0 
+}

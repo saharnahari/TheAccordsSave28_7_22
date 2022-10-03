@@ -1,0 +1,39 @@
+state={
+	id=87
+	name="STATE_87"
+	manpower = 2213600
+	
+	state_category = large_city
+	
+	resources = {
+		steel = 4
+	}
+	
+	history={
+		owner = PND
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			9508 20
+		}
+		victory_points = {
+			584 5
+		}
+		add_core_of = PND
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+			}
+		}
+	}
+
+	provinces={
+		493 584 9439 9508 9546 11428 11515 548 6401 13363 13364 13365 13366 13367 
+	}
+
+	local_supplies=0.0 
+}

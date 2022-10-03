@@ -1,0 +1,30 @@
+state={
+	id=92
+	name="STATE_92"
+
+	history={
+		victory_points = {
+			13371 15 
+		}
+		owner = PND
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = PND
+		
+
+	}
+
+	provinces={
+		3521 3559 6484 6580 9452 9521 9544 11399 11466 12562 402 524 13371 13372 13373 13374 13375 13376 13377
+	}
+	manpower=3194267
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=0.0 
+}

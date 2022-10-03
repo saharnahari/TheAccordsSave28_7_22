@@ -1,0 +1,29 @@
+state={
+	id=10
+	name="STATE_10"
+	manpower = 1017263
+
+	state_category = city
+
+	history={
+		owner = PND
+		victory_points = {
+			3544 25
+		}
+		victory_points = {
+			402 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+		}
+		add_core_of = PND
+	}
+
+	provinces={
+		467 3482 6511 9400 11492 13369 13370
+	}
+
+	local_supplies=0.0 
+}

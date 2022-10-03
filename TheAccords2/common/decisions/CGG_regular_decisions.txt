@@ -1,0 +1,850 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+simple_category = {		#Name of category that decisions will appear under, decisions MUST have a category to work properly.
+	simple_decision = {		#ID of the decision, must not contain spaces!
+
+		icon = GFX_decision_icon_default		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 5	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+
+		cost = 0		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			custom_effect_tooltip = "DECISION_EFFECT_YAY"
+			hidden_effect = {
+				add_political_power = 500
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	
+	###################################################################################################################
+				#### TARGETED DECISIONS WILL PUT THE FLAG OF THE TARGET WITH THE DECISION ICON ####
+	#### SCOPING FOR THE TARGET OF THE DECISION IS DONE WITH "FROM" and the country currently being played is ROOT ####
+	###################################################################################################################	
+	
+	simple_targeted_decision = {		#ID of the decision, must not contain spaces!
+
+		icon = GFX_decision_icon_default		#The left side icon to show for this decision.
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 5	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				is_ai = no
+			}		
+		}
+		
+		target_trigger = {		#Trigget to make the decision appear, these override the visible paramater so if visible is true but target_trigger is not, the decision will not appear
+			FROM = { tag = USA }
+		}		
+
+		cost = 10		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			FROM = { add_political_power = 50 }
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+}
+simple_category_with_picture = {
+	blackmail_opposition = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {		
+			has_stability > 0.33
+			not = {
+			has_country_flag = blackmailed_opposition
+			}
+			or ={
+			has_idea = roter_frontkampferbund_1 
+			has_idea = roter_frontkampferbund_2
+			has_idea = roter_frontkampferbund_3
+			}
+		}
+		
+		fire_only_once = no			
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			add_political_power = 25
+			add_stability = -0.02
+			set_country_flag = {
+				flag = blackmailed_opposition
+				days = 30
+				value = 1
+			}
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	clash_nazis = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {		
+			has_stability > 0.33
+			has_manpower > 2000
+			not = {
+			has_country_flag = healing_from_clashes
+			}
+			or ={
+			has_idea = roter_frontkampferbund_1 
+			has_idea = roter_frontkampferbund_2
+			has_idea = roter_frontkampferbund_3
+			}
+		}
+		
+		cost = 25
+		
+		fire_only_once = no			
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			add_stability = -0.1
+			add_manpower = -2000
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.03
+			}
+			set_country_flag = {
+				flag = healing_from_clashes
+				days = 77
+				value = 1
+			}
+			add_timed_idea = { idea = healing_from_clashes  days = 70 }
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	silence_pacifists = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {		
+			has_stability > 0.33
+			or ={
+			has_idea = roter_frontkampferbund_1 
+			has_idea = roter_frontkampferbund_2
+			has_idea = roter_frontkampferbund_3
+			}
+		}
+		
+		fire_only_once = yes		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			add_stability = -0.05
+			add_war_support = 0.05
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.025
+			}
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	raid_printing_house = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {		
+			or ={ 
+			has_idea = roter_frontkampferbund_2
+			has_idea = roter_frontkampferbund_3
+			}
+			not = {
+				has_country_flag = raided_printing_houses
+			}
+		}
+		
+		cost = 75
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			add_timed_idea = {
+				idea = raided_printing_houses
+				days = 365
+			}
+			set_country_flag = {
+				flag = raided_printing_houses
+				days = 366
+				value = 1
+			}
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	seize_corporate_property = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {		
+			or ={ 
+			has_idea = roter_frontkampferbund_2
+			has_idea = roter_frontkampferbund_3
+			}
+			not = {
+				has_country_flag = seized_property
+			}
+		}
+		
+		cost = 50
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = seized_property
+				days = 90
+				value = 1
+			}
+			add_offsite_building = { type = industrial_complex level = 1 }
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	seize_imperial_military_assets = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {		
+			or ={ 
+			has_idea = roter_frontkampferbund_2
+			has_idea = roter_frontkampferbund_3
+			}
+			not = {
+				has_country_flag = seized_military_assets
+			}
+		}
+		
+		cost = 50
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = seized_military_assets
+				days = 90
+				value = 1
+			}
+			add_offsite_building = { type = arms_factory level = 1 }
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	prepare_march = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {
+			has_idea = roter_frontkampferbund_3
+			not = {
+				has_country_flag = march_held_recenetly
+			}
+			not = {
+				has_country_flag = march_cooldown
+			}
+			not = {	
+				has_idea = march_preperations
+			}
+			
+		}
+		
+		cost = 25
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = march_prepared
+				days = 365
+				value = 1
+			}
+			set_country_flag = {
+				flag = march_cooldown
+				days = 365
+				value = 1
+			}
+			add_timed_idea = { idea = march_preperations days = 65 }
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	march = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {
+			has_idea = roter_frontkampferbund_3
+		
+			has_country_flag = march_prepared
+			
+			not = { has_country_flag = march_held_recenetly }
+		
+			not = {	
+				has_idea = march_preperations
+			}
+		}
+		
+		cost = 25
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = march_held_recenetly
+				days = 365
+				value = 1
+			}
+			add_war_support =  0.1
+			add_political_power = 100
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	jungfront_schools = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {
+			has_completed_focus = CGG_form_rote_jungfront
+			not = {
+				has_country_flag = indoctrination
+			}
+		}
+		
+		cost = 50
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = indoctrination
+				days = 365
+				value = 1
+			}
+			add_timed_idea = { idea = jungfront_in_schools days = 365 }
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	jungfront_recruitment = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {
+			has_completed_focus = CGG_form_rote_jungfront
+			not = {
+				has_country_flag = recruited_youngsters
+			}
+		}
+		
+		cost = 10
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = recruited_youngsters
+				days = 30
+				value = 1
+			}
+			add_manpower = 1500
+			add_war_support = 0.005
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	jungfront_construct = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {
+			has_completed_focus = CGG_form_rote_jungfront
+			not = {
+				has_country_flag = youngsters_worked
+			}
+		}
+		
+		cost = 35
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = youngsters_worked
+				days = 100
+				value = 1
+			}
+			add_timed_idea = { idea = teen_workforce days = 90 }
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	jungfront_produce = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {
+			has_completed_focus = CGG_form_rote_jungfront
+			not = {
+				has_country_flag = youngsters_worked
+			}
+		}
+		
+		cost = 35
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = youngsters_worked
+				days = 100
+				value = 1
+			}
+			add_timed_idea = { idea = teen_production days = 90 }
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+
+}
+
+simple_category_with_picture_2 = {
+	hold_speech = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {
+			has_completed_focus = CGG_ernst_thalmann_introduction
+			not = {
+				has_country_flag = held_speech
+			}
+			has_country_leader = {
+				character = CGG_ernst_thalmann
+				ruling_only = yes
+			}
+		}
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = held_speech
+				days = 100
+				value = 1
+			}
+			add_political_power = 35
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	hear_citizens_complaints = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		available = {
+			has_completed_focus = CGG_ernst_thalmann_introduction
+			not = {
+				has_country_flag = heard_complaints
+			}
+			has_country_leader = {
+				character = CGG_ernst_thalmann
+				ruling_only = yes
+			}
+		}
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			set_country_flag = {
+				flag = heard_complaints
+				days = 100
+				value = 1
+			}
+			add_political_power = 15
+			add_stability = 0.01
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	deal_with_the_troublemakers_1 = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		cost = 25
+		
+		available = {
+			has_completed_focus = CGG_ernst_thalmann_introduction
+			has_completed_focus = CGG_ernst_thalmann_grip_1
+			has_idea = troublemakers_1
+			has_country_leader = {
+				character = CGG_ernst_thalmann
+				ruling_only = yes
+			}
+		}
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			add_stability = 0.03
+			remove_ideas = troublemakers_1
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	deal_with_the_troublemakers_2 = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		cost = 25
+		
+		available = {
+			has_completed_focus = CGG_ernst_thalmann_introduction
+			has_completed_focus = CGG_ernst_thalmann_grip_1
+			has_idea = troublemakers_2
+			has_country_leader = {
+				character = CGG_ernst_thalmann
+				ruling_only = yes
+			}
+		}
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			add_stability = 0.03
+			remove_ideas = troublemakers_2
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	deal_with_the_troublemakers_3 = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+		
+		cost = 25
+		
+		available = {
+			has_completed_focus = CGG_ernst_thalmann_introduction
+			has_completed_focus = CGG_ernst_thalmann_grip_1
+			has_idea = troublemakers_3
+			has_country_leader = {
+				character = CGG_ernst_thalmann
+				ruling_only = yes
+			}
+		}
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			add_stability = 0.03
+			remove_ideas = troublemakers_3
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	
+	attend_military_exercise = {		
+
+		icon = GFX_decision_icon_default	
+		
+		
+		allowed = {
+			tag = CGG
+		}
+	
+		
+		available = {
+			has_completed_focus = CGG_ernst_thalmann_introduction
+			has_completed_focus = CGG_ernst_thalmann_war_hero
+			has_idea = troublemakers_3
+			has_country_leader = {
+				character = CGG_ernst_thalmann
+				ruling_only = yes
+			}
+			not = {
+				has_country_flag = attended_exercise
+			}
+		}
+		
+		fire_only_once = no		
+
+		visible = {		
+		}
+
+		complete_effect = {	
+			add_timed_idea = { idea = thalmann_rallies days = 60 }
+			set_country_flag = {
+				flag = attended_exercise
+				days = 365
+				value = 1
+			}
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+}
+
+############################################################################
+#### ON MAP DECISIONS ALLOW YOU TO SHOW DECISION ICONS ON THE WORLD MAP ####
+############################################################################
+category_with_map_icon = {
+	on_map_decision = {
+
+		icon = GFX_decision_icon_default		#The left side icon to show for this decision.
+		on_map_mode = map_only		#Determiens if the decision should only show up as an icon on the world map or as a decision bar in the decision interface too.
+		highlight_states = { state = 318 }		#This is required if on_map_mode = map_only is used, will highlight the state and will make the decision icon appear above that state on the world map.
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 5	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				is_ai = no
+			}
+		}		
+
+		cost = 10		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the decision icon is clicked.
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	
+	}
+}

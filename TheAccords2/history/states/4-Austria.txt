@@ -1,0 +1,26 @@
+
+state={
+	id=4
+	name="STATE_4"
+	manpower = 211330
+	resources={
+		oil=1
+	}
+	
+	state_category = rural
+	
+	history={
+		owner = HAB
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = HAB
+
+	}
+
+	provinces={
+		3700 9661 11630 
+	}
+
+	local_supplies=0.0 
+}

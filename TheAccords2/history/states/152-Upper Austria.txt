@@ -1,0 +1,32 @@
+
+state={
+	id=152
+	name="STATE_152"
+	manpower = 1275301
+	
+	state_category = city
+	
+	resources={
+		steel=5 
+		aluminium=1
+	}
+
+	history={
+		owner = HAB
+		victory_points = { 9665 10 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+
+		add_core_of = HAB
+
+	}
+
+	provinces={
+		3684 3703 6708 9665 11651 704 6690 13347 13348 13349 13350 13351 
+	}
+
+	local_supplies=0.0 
+}

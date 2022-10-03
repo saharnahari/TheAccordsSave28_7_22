@@ -1,0 +1,45 @@
+
+state={
+	id=57
+	name="STATE_57"
+	manpower = 5109333
+	resources = {
+		steel = 19
+	}
+	state_category = megalopolis
+
+	history={
+		owner = CGG
+		victory_points = {
+			495 15 
+		}
+		victory_points = {
+			9509 10 
+		}
+		victory_points = {
+			3398 10 
+		}
+		victory_points = {
+			13245 10 
+		}
+		victory_points = {
+			11431 10 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 6
+			air_base = 3
+
+		}
+		add_core_of = CGG
+
+	}
+
+	provinces={
+		405 495 3355 3398 6535 6622 9443 9509 11346 11431 13415 13413 13414 13412
+	}
+
+	local_supplies=0.0 
+}

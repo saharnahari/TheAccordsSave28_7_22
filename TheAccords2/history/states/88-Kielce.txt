@@ -1,0 +1,45 @@
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		steel=5.000
+		oil=3.000
+	}
+
+	history={
+		owner = PND
+		victory_points = {
+			9427 20 
+		}
+		victory_points = {
+			442 5
+		}
+		victory_points = {
+			9494 5
+		}
+		victory_points = {
+			6499 5 
+		}
+		victory_points = {
+			13397 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
+
+		}
+		add_core_of = PND
+
+	}
+
+	provinces={
+		417 442 466 3410 3434 6499 6522 9412 9494 11398 11413 11507 13393 13394 13395 13396 13397 13398 13399 13401 13402
+	}
+	manpower=2624800
+
+	state_category=large_city
+
+	local_supplies=0.0 
+}

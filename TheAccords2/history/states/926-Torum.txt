@@ -1,0 +1,31 @@
+
+state={
+	id=926
+	name="STATE_926"
+	manpower = 284700
+	
+	state_category = rural
+	
+	resources={
+	}
+
+	history={
+		owner = GEE
+		victory_points = {
+			3295 5
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+
+		add_core_of = PND
+
+	}
+
+	provinces={
+		6347 13360 3295
+	}
+
+	local_supplies=0.0 
+}

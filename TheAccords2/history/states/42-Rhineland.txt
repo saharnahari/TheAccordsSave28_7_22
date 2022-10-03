@@ -1,0 +1,43 @@
+
+state={
+	id=42
+	name="STATE_42"
+	manpower = 1187239
+	resources={
+		steel=11
+		aluminium=6 
+	}
+	
+	state_category = city
+
+	history={
+		owner = FRA
+		victory_points = { 11560 15 }
+		victory_points = { 13238 15 }
+		victory_points = { 9575 10 }
+		victory_points = { 11547 10 }
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = GER
+	
+		set_demilitarized_zone = yes
+		
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
+
+	}
+
+	provinces={
+		563 3423 3558 9575 11547 11560 13404 13405 13406
+	}
+	
+	
+
+	local_supplies=0.0 
+}

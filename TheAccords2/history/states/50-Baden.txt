@@ -1,0 +1,41 @@
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		aluminium=5
+		steel = 3
+	}
+
+	state_category = metropolis
+	history={
+		owner = CGG
+		victory_points = {
+			9517 35
+		}
+		victory_points = {
+			13271 10 
+		}
+		victory_points = {
+			6581 10
+		}
+		victory_points = {
+			13270 10
+		}
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 3
+
+		}
+		add_core_of = CGG
+	}
+
+	provinces={
+		519 694 3679 3690 3692 6555 6581 6934 9517 9545 9655 11486 11499 13126 13267 13268 13269 13270 13271 13272
+	}
+	manpower=3344354
+
+	local_supplies=0.0 
+}

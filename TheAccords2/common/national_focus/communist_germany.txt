@@ -1,0 +1,1017 @@
+﻿focus_tree = {
+	id = communist_german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CGG
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000
+	}
+
+	focus = {
+		id = CGG_heinrich_brandler_administration
+		icon = GFX_goal_generic_major_war
+		cost = 25
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 25
+		y = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+		
+		completion_reward = {
+			add_political_power = 300
+			add_stability = 0.25
+			add_war_support = 0.25
+			add_research_slot = 3
+		}
+	}
+	
+	focus = {
+		id = CGG_prepare_for_war
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_heinrich_brandler_administration
+		
+		prerequisite = { focus = CGG_heinrich_brandler_administration }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+		
+		completion_reward = {
+			add_political_power = 150
+			army_experience = 100
+			add_war_support = 0.25
+		}
+	}
+	
+	focus = {
+		id = CGG_war
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_prepare_for_war
+		
+		prerequisite = { focus = CGG_prepare_for_war }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+		
+		completion_reward = {
+			declare_war_on = {
+			target = GEE
+			type = annex_everything
+			}
+			declare_war_on = {
+			target = BWN
+			type = annex_everything
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_annex_socialist_states
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_war
+		
+		prerequisite = { focus = CGG_war }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+		
+		completion_reward = {
+			annex_country = {
+			target = BAV
+			transfer_troops = yes
+			}
+			annex_country = {
+			target = ROX
+			transfer_troops = yes
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_integrate_socialist_states
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_annex_socialist_states
+		
+		prerequisite = { focus = CGG_annex_socialist_states }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+		
+		completion_reward = {
+			add_state_core = 842
+			add_state_core = 65
+			add_state_core = 52
+			add_state_core = 53
+			add_state_core = 54
+		}
+	}
+	
+	focus = {
+		id = CGG_total_war
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_integrate_socialist_states
+		
+		prerequisite = { focus = CGG_integrate_socialist_states }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+		
+		completion_reward = {
+			declare_war_on = { target = FRA type = annex_everything }
+			declare_war_on = { target = ENG type = annex_everything }
+			declare_war_on = { target = CZE type = annex_everything }
+			add_threat = 100
+		}
+	}
+	
+	focus = {
+		id = CGG_ernst_thalmann_introduction
+		icon = GFX_goal_CGG_ernst_thalmann
+		cost = 3
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 10
+		y = 1
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = CGG_ernst_thalmann_improving_image
+		icon = GFX_goal_ernst_thalmann_improve_image
+		cost = 3
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_ernst_thalmann_introduction
+		
+		prerequisite = { focus = CGG_ernst_thalmann_introduction }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = ernst_thalmann_improving_political_image days = 90 }
+		}
+	}
+	
+	focus = {
+		id = CGG_ernst_thalmann_war_hero
+		icon = GFX_goal_ernst_thalmann_war_hero
+		cost = 6
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_ernst_thalmann_improving_image
+		
+		prerequisite = { focus = CGG_ernst_thalmann_improving_image }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			add_trait = {
+			character = CGG_ernst_thalmann
+			ideology = marxism
+			trait = great_war_hero_1
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_ernst_thalmann_cult_of_personality
+		icon = GFX_goal_thalmann_cult
+		cost = 8
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_ernst_thalmann_war_hero
+		
+		prerequisite = { focus = CGG_ernst_thalmann_war_hero }
+		prerequisite = { focus = CGG_ernst_thalmann_connections }
+		prerequisite = { focus = CGG_ernst_thalmann_grip_1 }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			add_trait = {
+			character = CGG_ernst_thalmann
+			ideology = marxism
+			trait = cult_of_personality
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_ernst_thalmann_connections
+		icon = GFX_goal_ernst_thalmann_connections
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 2
+		relative_position_id = CGG_ernst_thalmann_introduction
+		
+		prerequisite = { focus = CGG_ernst_thalmann_introduction }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		add_political_power = 25
+			add_trait = {
+			character = CGG_ernst_thalmann
+			ideology = marxism
+			trait = well_connected_1
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_ernst_thalmann_grip_1
+		icon = GFX_goal_ernst_thalmann_grip
+		cost = 3
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 2
+		relative_position_id = CGG_ernst_thalmann_introduction
+		
+		prerequisite = { focus = CGG_ernst_thalmann_introduction }
+		prerequisite = { focus = CGG_expand_roter_frontkampferbund }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		add_command_power = 50
+		add_stability = 0.03
+		}
+	}
+	
+	focus = {
+		id = CGG_expand_roter_frontkampferbund
+		icon = GFX_goal_expand_roter
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 6
+		y = 1
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			swap_ideas = { 
+			remove_idea = roter_frontkampferbund_1 
+			add_idea = roter_frontkampferbund_2
+			}
+			add_timed_idea = { idea = upgrading_roter_frontkampferbund days = 20 }
+		}
+	}
+	
+	focus = {
+		id = CGG_fund_roter_frontkampferbund
+		icon = GFX_goal_fund_roter
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_expand_roter_frontkampferbund
+		
+		prerequisite = { focus = CGG_expand_roter_frontkampferbund }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = roter_frontkampferbund_2
+			add_idea =  roter_frontkampferbund_3
+			}
+			add_timed_idea =  { idea = upgrading_roter_frontkampferbund days = 30 }
+		}
+	}
+	
+	focus = {
+		id = CGG_compliance_boost
+		icon = GFX_focus_generic_manpower
+		cost = 3
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		relative_position_id = CGG_fund_roter_frontkampferbund
+		
+		prerequisite = { focus = CGG_fund_roter_frontkampferbund }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			add_ideas = red_front_occupation_1
+		}
+	}
+	
+	focus = {
+		id = CGG_recruit_in_occupation
+		icon = GFX_focus_YUG_pan_slavic_congress
+		cost = 3
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_compliance_boost
+		
+		prerequisite = { focus = CGG_compliance_boost }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = red_front_occupation_1
+			add_idea = red_front_occupation_2
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_red_front_terror
+		icon = GFX_focus_SOV_military_purge
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_recruit_in_occupation
+		
+		prerequisite = { focus = CGG_recruit_in_occupation }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = red_front_occupation_2
+			add_idea = red_front_occupation_3
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_power_over_politicians
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 3
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_ernst_thalmann_grip_1
+		
+		prerequisite = { focus = CGG_ernst_thalmann_grip_1 }
+		prerequisite = { focus = CGG_ernst_thalmann_connections }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = thalmann_dominant days = 365 }
+		}
+	}
+	
+	focus = {
+		id = CGG_head_of_intelligence
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_ernst_thalmann_connections
+		
+		prerequisite = { focus = CGG_ernst_thalmann_connections }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = CGG_subversive_expanded
+		icon = GFX_focus_POL_beck_ribbentrop
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 3
+		relative_position_id = CGG_fund_roter_frontkampferbund
+		
+		prerequisite = { focus = CGG_fund_roter_frontkampferbund }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				category = radar_tech
+			}
+			swap_ideas = {
+			remove_idea = roter_frontkampferbund_3
+			add_idea = roter_frontkampferbund_4
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_electronic_subverisve
+		icon = GFX_goal_generic_radar
+		cost = 3
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_subversive_expanded
+		
+		prerequisite = { focus = CGG_subversive_expanded }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = electronics
+				bonus = 0.33
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_encryption_decryption
+		icon = GFX_goal_generic_radar
+		cost = 3
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		relative_position_id = CGG_subversive_expanded
+		
+		prerequisite = { focus = CGG_subversive_expanded }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = encryption_decryption
+				bonus = 0.33
+				uses = 2
+				category = encryption_tech
+				category = decryption_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = CGG_connections_abroad
+		icon = GFX_focus_SOV_international_union_of_soviet_republics
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_head_of_intelligence
+		
+		prerequisite = { focus = CGG_head_of_intelligence }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = CGG_worldwide_network
+		icon = GFX_focus_SOV_proclaim_soviet_hegemony
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_connections_abroad
+		
+		prerequisite = { focus = CGG_connections_abroad }
+		prerequisite = { focus = CGG_subversive_expanded }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = CGG_infiltrated_our_foe
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_worldwide_network
+		
+		prerequisite = { focus = CGG_worldwide_network }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = CGG_english_assets
+		icon = GFX_focus_attack_britain
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		relative_position_id = CGG_infiltrated_our_foe
+		
+		prerequisite = { focus = CGG_infiltrated_our_foe }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = CGG_french_assets
+		icon = GFX_focus_attack_france
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -2
+		y = 1
+		relative_position_id = CGG_infiltrated_our_foe
+		
+		prerequisite = { focus = CGG_infiltrated_our_foe }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = CGG_russian_assets
+		icon = GFX_focus_attack_soviet
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 2
+		y = 1
+		relative_position_id = CGG_infiltrated_our_foe
+		
+		prerequisite = { focus = CGG_infiltrated_our_foe }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = CGG_italian_assets
+		icon = GFX_focus_attack_italy
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = CGG_infiltrated_our_foe
+		
+		prerequisite = { focus = CGG_infiltrated_our_foe }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = CGG_form_rote_jungfront
+		icon = GFX_goal_rote_jungfront
+		cost = 5
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		x = -4
+		y = 1
+		relative_position_id = CGG_fund_roter_frontkampferbund
+		
+		prerequisite = { focus = CGG_fund_roter_frontkampferbund }
+		
+		
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		ai_will_do = {	
+		}
+		
+		completion_reward = {
+		}
+	}
+}		

@@ -1,0 +1,102 @@
+ideas = {
+
+	country = {
+		catholic_state_1 = {
+			picture = ast_abandon_the_westminster_system
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				stability_factor = 0.075
+				neutrality_drift = 0.03
+				neutrality_acceptance = 25
+				drift_defence_factor = 0.25
+				
+			}
+		}
+		
+		italo_austrian_trade_agreement_1 = {
+			picture = ast_abandon_the_westminster_system
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				political_power_gain = 0.05
+				consumer_goods_factor = -0.03
+				local_resources_factor = 0.1
+			}
+		}
+		
+		austria_militias_clash = {
+			picture = ast_abandon_the_westminster_system
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				political_power_gain = -0.25
+				weekly_manpower = -300
+				stability_factor = -0.25
+			}
+		}
+		
+		national_identity_crisis = {
+			picture = ast_abandon_the_westminster_system
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				political_power_factor = -0.33
+				stability_factor = -0.15
+				war_support_factor = -0.15
+			}
+		}
+	}
+}	

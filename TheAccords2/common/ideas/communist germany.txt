@@ -1,0 +1,506 @@
+ideas = {
+
+	country = {
+		ernst_thalmann_improving_political_image = {
+			picture = ast_abandon_the_westminster_system
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				political_power_gain = 0.1
+				political_power_factor = 0.1
+			}
+		}
+		
+		roter_frontkampferbund_1 = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				conscription = 0.003
+				war_support_factor = 0.03
+				communism_drift = 0.02
+			}
+			
+		}
+		
+		roter_frontkampferbund_2 = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				conscription = 0.006
+				war_support_factor = 0.06
+				communism_drift = 0.03
+			}
+		}
+		
+		roter_frontkampferbund_3 = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				conscription = 0.01
+				war_support_factor = 0.1
+				communism_drift = 0.05
+			}
+		}
+		
+		roter_frontkampferbund_4 = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				conscription = 0.01
+				war_support_factor = 0.1
+				communism_drift = 0.05
+				agency_upgrade_time = -0.25
+			}
+		}
+		
+		upgrading_roter_frontkampferbund = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				consumer_goods_factor =0.05
+			}
+		}
+		
+		thalmann_dominant = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				political_power_factor = 0.1
+				political_advisor_cost_factor = -0.25
+			}
+		}
+		
+		red_front_occupation_1 = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				resistance_activity = -0.1
+				required_garrison_factor = -0.1
+			}
+		}
+		
+		red_front_occupation_2 = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				resistance_activity = -0.1
+				required_garrison_factor = -0.1
+				non_core_manpower = 0.05
+			}
+		}
+		
+		red_front_occupation_3 = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				resistance_activity = -0.20
+				non_core_manpower = 0.05
+				required_garrison_factor = -0.1
+				compliance_growth = 0.1
+			}
+		}
+		
+		healing_from_clashes = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				stability_weekly = 0.01
+			}
+		}
+		
+		raided_printing_houses = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				democratic_drift = -0.01
+				fascism_drift = -0.01
+				neutrality_drift = -0.01
+			}
+		}
+		
+		march_preperations = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
+			}
+		}
+		
+		jungfront_in_schools = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				research_speed_factor = -0.05
+				war_support_weekly = 0.001
+				communism_drift = 0.01
+			}
+		}
+		
+		teen_workforce = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				research_speed_factor = -0.05
+				production_speed_industrial_complex_factor = 0.1
+				industry_free_repair_factor = 0.25
+				
+			}
+		}
+		
+		teen_production = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				research_speed_factor = -0.05
+				production_speed_arms_factory_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				
+			}
+		}
+		
+		troublemakers_1 = {
+			picture = troublemaker_1
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				political_power_factor = -0.1
+				stability_factor = -0.05
+			}
+		}
+		
+		troublemakers_2 = {
+			picture = troublemaker_1
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				disabled_ideas = 1
+				
+			}
+		}
+		
+		troublemakers_3 = {
+			picture = troublemaker_1
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				consumer_goods_factor = 0.1
+				
+			}
+		}
+		
+		thalmann_rallies = {
+			picture = roter_frontkampferbund
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				war_support_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+		
+		scraps_of_imperial_fleet = {
+			picture = use_scraps_navy
+			
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier =  {
+				industrial_capacity_dockyard = 0.10
+				naval_doctrine_cost_factor = -0.10
+				ship_hull_heavy_design_cost_factor = -0.25
+				ship_hull_light_design_cost_factor = -0.25
+				ship_hull_submarine_design_cost_factor = -0.25
+				ship_hull_cruiser_design_cost_factor = -0.25
+				ship_hull_carrier_design_cost_factor = -0.25
+			}
+		}
+	}
+}	

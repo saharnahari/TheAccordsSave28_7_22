@@ -1,0 +1,36 @@
+state={
+	id=56
+	name="STATE_56"
+	
+	manpower = 458467
+	
+	state_category = town
+
+	history={
+		owner = CGG
+
+		victory_points = {
+			13416 5
+		}
+	
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			fuel_silo = 1
+			13416 = {
+				naval_base = 8
+
+			}
+			air_base = 3
+
+		}
+		add_core_of = CGG
+	}
+
+	provinces={
+		241 13417 13416 11360
+	}
+
+	local_supplies=14.0 
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=922
+	name="STATE_922"
+	manpower = 41230
+	resources = {
+		tungsten = 4
+	}
+	
+	state_category = enclave
+
+	history={
+		owner = HAB
+	
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = HAB
+
+	}
+
+	provinces={
+		671
+	}
+
+	local_supplies=12.0 
+}

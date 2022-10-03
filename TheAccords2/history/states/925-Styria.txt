@@ -1,0 +1,33 @@
+
+state={
+	id=925
+	name="STATE_925"
+	manpower = 850200
+	
+	state_category = large_town
+	
+	resources={
+		steel=7
+		aluminium=1
+		tungsten = 11
+	}
+
+	history={
+		owner = HAB
+		victory_points = { 3673 10 }
+		victory_points = { 9648 15 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+		add_core_of = HAB
+
+	}
+
+	provinces={
+		6691 9650 6687 3674 3673 13344 9646 653 9679 13345 9648 13346 
+	}
+
+	local_supplies=0.0 
+}

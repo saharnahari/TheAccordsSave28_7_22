@@ -1,0 +1,27 @@
+
+state={
+	id=923
+	name="STATE_923"
+	manpower = 211349
+	resources = {
+		tungsten = 17
+	}
+	
+	state_category = rural
+
+	history={
+		owner = HAB
+		
+		buildings = {
+			infrastructure = 3 
+		}
+		add_core_of = HAB
+		
+	}
+
+	provinces={
+		668 13340 6673
+	}
+
+	local_supplies=12.0 
+}

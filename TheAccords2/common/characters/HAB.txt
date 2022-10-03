@@ -1,0 +1,15 @@
+characters={
+	HAB_engelbert_dollfuss={
+		name="Engelbert Dollfuss"
+		portraits={
+			civilian={
+				large="GFX_portrait_HAB_dollfuss"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			traits = { conservative_fascist }
+			expire="1952.1.1.1"
+		}
+	}
+}
