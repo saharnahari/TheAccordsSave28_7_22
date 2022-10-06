@@ -2,7 +2,7 @@
 state={
 	id=57
 	name="STATE_57"
-	manpower = 5109333
+	manpower = 4673433
 	resources = {
 		steel = 19
 	}
@@ -11,21 +11,26 @@ state={
 	history={
 		owner = CGG
 		victory_points = {
-			495 15 
+			495 30
 		}
 		victory_points = {
-			9509 10 
+			9509 15
 		}
 		victory_points = {
-			3398 10 
+			13457 15
 		}
 		victory_points = {
-			13245 10 
+			3398 10
 		}
 		victory_points = {
-			11431 10 
+			13412 10
 		}
-		
+		victory_points = {
+			13455 15
+		}
+		victory_points = {
+			13454 10
+		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 3
@@ -38,7 +43,7 @@ state={
 	}
 
 	provinces={
-		405 495 3355 3398 6535 6622 9443 9509 11346 11431 13415 13413 13414 13412
+		405 495 3355 3398 6535 6622 9443 9509 11346 11431 13415 13413 13414 13412 13419 13454 13455 13456 13457 13458
 	}
 
 	local_supplies=0.0 

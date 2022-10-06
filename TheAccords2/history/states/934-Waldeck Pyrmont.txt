@@ -1,0 +1,26 @@
+
+state={
+	id=934
+	name="STATE_934"
+	manpower = 124550
+	resources = {
+		steel = 19
+	}
+	state_category = pastoral
+
+	history={
+		owner = CGG
+		
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CGG
+
+	}
+
+	provinces={
+		13453
+	}
+
+	local_supplies=0.0 
+}

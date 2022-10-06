@@ -1,33 +1,41 @@
 state= {
 	id=58
 	name="STATE_58"
-	manpower = 1568350 
+	manpower = 1468350 
 	state_category = city
 	
 	history=
 	{
 		victory_points = {
-			6389 15 
+			13425 5
 		}
 		victory_points = {
-			13288 10
+			6257 3
 		}
 		victory_points = {
-			11366 5
+			6389 15
 		}
+		victory_points = {
+			13429 3
+		}
+	
 		
 		owner = CGG
 		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-			dockyard = 3
+			dockyard = 4
 			air_base = 5
-			6389 ={
-				naval_base = 8
+			
+			13425 ={
+				naval_base = 3
 			}
-			13288 ={
+			6389 = {
 				naval_base = 4
+			}
+			13429 = {
+				naval_base = 2
 			}
 		}
 		add_core_of = CGG
@@ -35,7 +43,7 @@ state= {
 	}
 
 	provinces= {
-		317 3231 3368 6257 6389 9320 11331 11366 13288 13289 13290
+		317 3231 3368 6257 6389 9320 11331 11366 13288 13289 13290 13424 13425 13426 13427 13428 13429 13430 13431 13433 13434
  	}
 
 	local_supplies=0.0 

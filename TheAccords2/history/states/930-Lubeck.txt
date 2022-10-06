@@ -1,0 +1,31 @@
+state= {
+	id=930
+	name="STATE_930"
+	manpower = 123121 
+	state_category = rural
+	
+	history=
+	{
+		victory_points = {
+			13432 10
+		}
+	
+		owner = CGG
+		
+		buildings = {
+			infrastructure = 4
+			
+			13432 ={
+				naval_base = 1
+			}
+		}
+		add_core_of = CGG
+		
+	}
+
+	provinces= {
+		13432
+ 	}
+
+	local_supplies=0.0 
+}

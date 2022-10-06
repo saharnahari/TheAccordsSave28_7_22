@@ -3,51 +3,37 @@ state={
 	id=59
 	name="STATE_59"
 	
-	manpower = 3675901
+	manpower = 2822491
 	
 	resources={
 		oil=2
 		steel=26
 	}
 	
-	state_category = megalopolis
+	state_category = metropolis
 
 	history={
 		owner = CGG
-		
 		victory_points = {
-			6377 20 
+			13448 25
 		}
 		victory_points = {
-			526 10 
+			13257 10
 		}
 		victory_points = {
-			13255 10 
+			6513 10
 		}
 		victory_points = {
-			11388 15
+			13420 5
 		}
 		victory_points = {
-			9375 5
+			13447 5
 		}
-		victory_points = {
-			6513 5 
-		}
-		victory_points = {
-			526 5 
-		}
-		victory_points = {
-			309 5 
-		}
-		
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
-			industrial_complex = 3
-			dockyard = 3
-			6325 = {
-				naval_base = 1
-			}
+			industrial_complex = 4
+			dockyard = 2
 
 		}
 		add_core_of = CGG
@@ -55,7 +41,7 @@ state={
 	}
 
 	provinces={
-		374 526 3271 3395 6218 6263 6298 6325 6349 6377 6513 9238 9264 9375 11402 11468 11493  247 309 336 3234 9281 11233 11264 11388 13257 13258 13259 13260 13423 13422 13421 13419 13418 13420
+		374 3271 3395 6218 6263 6298 6325 6349 6377 6513 9238 9264 11402 13257 13260 13423 13418 13420 13445 13446 13447 13448 13449 13450 13451 
 	}
 
 	local_supplies=0.0 

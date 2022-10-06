@@ -11,13 +11,18 @@ state={
 		owner = CGG
 		
 		victory_points = {
-			3326 15
+			3326 20
 		}
+		victory_points = {
+			13436 5
+		}
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			3326 = {
-				naval_base = 3
+			dockyard = 1
+			13436 = {
+				naval_base = 7
 			}
 
 		}
@@ -26,7 +31,7 @@ state={
 	}
 
 	provinces={
-		3326 
+		3326 13436
 	}
 
 	local_supplies=0.0 

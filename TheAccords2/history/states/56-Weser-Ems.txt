@@ -8,19 +8,16 @@ state={
 
 	history={
 		owner = CGG
-
 		victory_points = {
-			13416 5
+			336 10
 		}
-	
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 1
 			fuel_silo = 1
-			13416 = {
+			13437 = {
 				naval_base = 8
-
 			}
 			air_base = 3
 
@@ -29,8 +26,8 @@ state={
 	}
 
 	provinces={
-		241 13417 13416 11360
+		241 336 13422 13421 13437 13438 13439
 	}
 
-	local_supplies=14.0 
+	local_supplies=0.0 
 }

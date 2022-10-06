@@ -1,0 +1,39 @@
+
+state={
+	id=931
+	name="STATE_931"
+	
+	manpower = 764280
+	
+	resources={
+		oil=2
+		steel=26
+	}
+	
+	state_category = large_town
+
+	history={
+		owner = CGG
+		victory_points = {
+			11388 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			11360 = {
+				naval_base = 3
+			}
+			
+		}
+		add_core_of = CGG
+
+	}
+
+	provinces={
+		247 309 3234 9281 11233 11264 11388 13417 13416 11360 13440 13441 13442 13443 13444
+	}
+
+	local_supplies=0.0 
+}
