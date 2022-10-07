@@ -1,5 +1,9 @@
 #reload countrycolors
 
+FRN = {
+	color = rgb { 61 140 232 }
+	color_ui = rgb { 61 140 232 }
+}
 PND = {
 	color = rgb { 207 61 94 }
 	color_ui = rgb { 207 61 94 }
@@ -32,6 +36,14 @@ RHN = {
 	color = rgb { 71 178 117 }
 	color_ui = rgb { 71 178 117 }
 }
+
+#VANILLA#
+#
+#
+#
+#
+#VANILLA#
+
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }

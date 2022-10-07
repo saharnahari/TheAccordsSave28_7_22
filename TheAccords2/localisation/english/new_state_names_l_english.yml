@@ -919,4 +919,7 @@
  STATE_930:0 "Lubeck"
  STATE_912:0 "Bremen"
  STATE_931:0 "Weser Ems"
+ STATE_932:0 "Brunswick"
+ STATE_933:0 "Lippe"
+ STATE_934:0 "Waldeck-Pyrmont"
  

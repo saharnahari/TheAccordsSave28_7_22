@@ -238,6 +238,12 @@ KHI = "countries/Khiva.txt"
 UDM = "countries/Udmurtia.txt"
 CHU = "countries/Chuvashia.txt"
 MEL = "countries/Mariel.txt"
+#
+#
+#
+#
+#
+FRN = "countries/France2.txt"
 RHN = "countries/Rhineland.txt"
 GEE = "countries/Germany1.txt"
 CGG = "countries/Germany2.txt"
@@ -246,6 +252,11 @@ ROX = "countries/Saxony2.txt"
 BWN = "countries/Brownshirts.txt"
 HAB = "countries/Austria2.txt"
 PND = "countries/Poland2.txt"
+#
+#
+#
+#
+#
 RIF = "countries/Rif.txt"
 HAR = "countries/Harar.txt"
 TIG = "countries/Tigray.txt"
