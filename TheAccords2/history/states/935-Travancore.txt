@@ -1,0 +1,31 @@
+
+state={
+	id=935
+	name="STATE_935" # Travancore
+	manpower = 5512500
+	
+	state_category = town
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			1321 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			7402 10
+		}
+		victory_points = {
+			1321 15
+		}
+	}
+
+	provinces={
+		7402 1321 1238 13562
+	}
+
+	local_supplies=0.0 
+}

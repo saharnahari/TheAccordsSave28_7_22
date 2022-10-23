@@ -1,0 +1,25 @@
+
+state={
+	id=990
+	name="STATE_990"
+	manpower = 33131
+
+	state_category = enclave
+
+	history={
+		owner = FRA
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		victory_points = {
+			13531 3 
+		}
+	}
+
+	provinces={ 
+		13531
+	}
+
+	local_supplies=0.0 
+}

@@ -2,7 +2,7 @@
 state={
 	id=909
 	name="STATE_909"
-	manpower = 842500
+	manpower = 742500
 	resources={
 		aluminium = 8
 		steel = 32
@@ -12,7 +12,7 @@ state={
 
 	history={
 		owner = FRA
-		victory_points = { 13236 5 }
+		victory_points = { 11531 5 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		11531 13403
+		11531 13403 13616
 	}
 	
 	

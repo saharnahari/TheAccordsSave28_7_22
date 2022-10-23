@@ -1,0 +1,20 @@
+state={
+	id=984
+	name="STATE_984"
+	
+	history={
+		owner = RAJ
+		add_core_of = PAK
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		10772 10843 10898 12792 
+	}
+	manpower=1084612
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

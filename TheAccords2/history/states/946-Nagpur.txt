@@ -1,0 +1,25 @@
+state={
+	id=946
+	name="STATE_946"
+	state_category = rural
+	
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4883 12 
+		}
+		victory_points = {
+			7619 3 
+		}
+	}
+	provinces={
+		4557 4883 7619 10171 
+	}
+	manpower=1020037
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

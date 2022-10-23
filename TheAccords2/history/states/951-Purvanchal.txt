@@ -1,0 +1,35 @@
+state={
+	id=951
+	name="STATE_951"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			13516 8 
+		}
+		victory_points = {
+			13491 12 
+		}
+		victory_points = {
+			13472 1 
+		}
+		victory_points = {
+			13490 8 
+		}
+		victory_points = {
+			2005 5 
+		}
+	}
+
+	provinces={
+		2005 7064 7334 10751 12786 13472 13490 13491 13516 
+	}
+	manpower=5324122
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

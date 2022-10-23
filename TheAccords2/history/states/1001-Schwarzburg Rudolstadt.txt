@@ -1,0 +1,26 @@
+
+state={
+	id=1001
+	name="STATE_1001"
+	manpower = 126120
+
+	state_category = pastoral
+
+
+	history={
+		owner = GEE
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GEE
+
+	}
+
+	provinces={
+		6524
+	}
+
+	local_supplies=0.0 
+}

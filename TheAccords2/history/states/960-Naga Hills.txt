@@ -1,0 +1,24 @@
+state={
+	id=960
+	name="STATE_960"
+	
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			1553 1 
+		}
+	}
+	
+	provinces={
+		1553 13522
+	}
+	
+	state_category = wasteland
+	manpower=182313
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=976
+	name="STATE_976"
+	
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10274 15 
+		}
+		victory_points = {
+			7363 3 
+		}
+	}
+
+	provinces={
+		7363 8067 10130 10274 10808 12247 12275 
+	}
+	manpower=1214244
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

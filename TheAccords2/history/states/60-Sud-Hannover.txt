@@ -2,24 +2,26 @@
 state={
 	id=60
 	name="STATE_60"
-	manpower = 3005214
+	manpower = 1550214
 	resources={
 		steel=13  
 		chromium = 3 
 		tungsten = 3  
 	}
 	
-	state_category = metropolis
+	state_category = city
 
 	history={
 		owner = GEE
-		victory_points = { 13292 15 }
-		victory_points = { 538 10 }
-		victory_points = { 6501 5 }
-		victory_points = { 6582 5 }
+		victory_points = {
+			13596 5
+		}
+		victory_points = {
+			3561 15
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
+			industrial_complex = 2
 			arms_factory = 1
 		}
 		add_core_of = GEE
@@ -27,7 +29,7 @@ state={
 	}
 
 	provinces={
-		425 482 538 3500 3561 6501 6524 6582 9497 13292 13293 13294
+		3561 6582 13292 13293 13594 13595 13596 13597
 	}
 
 	local_supplies=0.0 

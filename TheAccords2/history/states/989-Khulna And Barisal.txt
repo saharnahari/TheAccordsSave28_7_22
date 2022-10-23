@@ -1,0 +1,30 @@
+state={
+	id=989
+	name="STATE_989"
+	
+	history={
+		add_core_of = BAN
+		owner = RAJ
+		victory_points = {
+			2843 5 
+		}
+		victory_points = {
+			10035 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = PAK
+		add_core_of = RAJ
+	}
+	
+	provinces={
+		2843 4162 7078 7124 9935 10035 11911 
+	}
+	
+	state_category=rural
+	manpower=3532521
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

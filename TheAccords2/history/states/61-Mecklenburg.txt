@@ -9,26 +9,21 @@ state={
 	history={
 		owner = GEE
 		victory_points = {
-			13306 10
+			321 10
 		}
 		victory_points = {
-			11276 5
+			13571 5
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			dockyard = 1
-			13306 = {
-				naval_base = 6
-
-			}
+			industrial_complex = 2
 			air_base = 3
 		}
 		add_core_of = GEE
 	}
 
 	provinces={
-		268 293 321 9294 11276 11305 13306 13307 13308
+		268 293 321 9294 11276 11305 13306 13307 13308 13568 13569 13570 13571
 	}
 
 	local_supplies=3.0 

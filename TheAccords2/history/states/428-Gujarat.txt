@@ -1,0 +1,32 @@
+
+state={
+	id=428
+	name="STATE_428"
+	manpower = 6590200
+	
+	
+	state_category = town
+
+	history={
+		owner = RAJ
+		victory_points = {
+			9975 15
+		}
+		victory_points = {
+			13555 10
+		}
+		victory_points = {
+			13556 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		1103 4064 4187 7150 7165 9975 11952 12092 13551 13555 13556
+	}
+
+	local_supplies=0.0 
+}

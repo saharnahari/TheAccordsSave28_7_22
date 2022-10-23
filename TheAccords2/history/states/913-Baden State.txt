@@ -6,7 +6,7 @@ state={
 		steel = 6
 	}
 
-	state_category = city
+	state_category = large_city
 	
 	history={
 		owner = CGG
@@ -23,6 +23,9 @@ state={
 		victory_points = {
 			13265 5
 		}
+		victory_points = {
+			6581 10
+		}
 		
 		buildings = {
 			infrastructure = 4
@@ -36,9 +39,9 @@ state={
 	}
 
 	provinces={
-		6568 3530 6542 6712 11640 13265 13266
+		6568 3530 6542 6712 11640 13265 13266 6581 13272 3692 3679 13268 13612
 	}
-	manpower=1742500
+	manpower=2142500
 
 	local_supplies=0.0 
 }

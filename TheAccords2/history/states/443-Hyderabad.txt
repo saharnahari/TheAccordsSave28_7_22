@@ -1,0 +1,37 @@
+
+state={
+	id=443
+	name="STATE_443"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			3456 15 
+		}
+		victory_points = {
+			10735 10 
+		}
+		victory_points = {
+			4110 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3456 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = PAK
+
+	}
+
+	provinces={
+		1147 1971 1980 3456 4003 4110 7049 10108 10735 
+	}
+	manpower=3574000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=7.000
+}

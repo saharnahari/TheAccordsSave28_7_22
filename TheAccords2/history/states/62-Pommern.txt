@@ -2,7 +2,7 @@
 state={
 	id=62
 	name="STATE_62"
-	manpower = 806221
+	manpower = 626221
 	
 	
 	state_category = large_town
@@ -10,17 +10,23 @@ state={
 	history={
 		
 		owner = BWN
+		victory_points = {
+			9388 3
+		}
 		buildings = {
 			infrastructure = 3
 			fuel_silo = 1
 			industrial_complex = 1
+			349 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = BWN
 
 	}
 
 	provinces={
-		349 3258 3312 3340 9388 13309 13310
+		349 3312 3340 9388 13309 13310 13572
 	}
 
 	local_supplies=3.0 

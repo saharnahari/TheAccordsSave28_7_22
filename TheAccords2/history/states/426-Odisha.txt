@@ -1,0 +1,31 @@
+
+state={
+	id=426
+	name="STATE_426"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		victory_points = {
+			10088 15 
+		}
+		victory_points = {
+			12462 7 
+		}
+		victory_points = {
+			10116 5 
+		}
+	}
+
+	provinces={
+		4104 9946 10088 10116 12063 12462 13563 
+	}
+	manpower=11520100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

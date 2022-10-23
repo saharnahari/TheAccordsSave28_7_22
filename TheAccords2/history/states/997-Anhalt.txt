@@ -1,0 +1,23 @@
+
+state={
+	id=997
+	name="STATE_997"
+	manpower = 156310
+
+	state_category = rural
+
+
+	history={
+		owner = CGG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CGG
+	}
+
+	provinces={
+		9560 6487
+	}
+
+	local_supplies=0.0 
+}

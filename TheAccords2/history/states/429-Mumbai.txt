@@ -1,0 +1,45 @@
+
+state={
+	id=429
+	name="STATE_429"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+			dockyard = 2
+			1349 = {
+				naval_base = 6
+
+			}
+
+		}
+		victory_points = {
+			1349 20 
+		}
+		victory_points = {
+			13557 10 
+		}
+		victory_points = {
+			13558 15 
+		}
+		victory_points = {
+			13459 5 
+		}
+		victory_points = {
+			7060 5 
+		}
+
+	}
+
+	provinces={
+		1349 1405 4072 4353 4395 7013 7060 7119 7177 7232 10019 10210 10270 12142 12182 12269 13459 13557 13558
+	}
+	manpower=1555600
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

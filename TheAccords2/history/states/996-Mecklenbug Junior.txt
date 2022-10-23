@@ -1,0 +1,25 @@
+
+state={
+	id=996
+	name="STATE_996"
+	manpower = 179509
+	
+	
+	state_category = rural
+
+	history={
+		
+		owner = BWN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BWN
+
+	}
+
+	provinces={
+		3258 13573
+	}
+
+	local_supplies=3.0 
+}

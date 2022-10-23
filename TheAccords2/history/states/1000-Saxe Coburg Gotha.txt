@@ -1,0 +1,26 @@
+
+state={
+	id=1000
+	name="STATE_1000"
+	manpower = 277410
+
+	state_category = rural
+
+
+	history={
+		owner = GEE
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GEE
+
+	}
+
+	provinces={
+		482 13598 425
+	}
+
+	local_supplies=0.0 
+}

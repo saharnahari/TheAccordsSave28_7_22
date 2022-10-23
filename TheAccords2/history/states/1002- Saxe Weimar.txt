@@ -1,0 +1,29 @@
+
+state={
+	id=1002
+	name="STATE_1002"
+	manpower = 416320
+
+	state_category = town
+
+
+	history={
+		owner = GEE
+		victory_points = {
+			13294 5
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GEE
+
+	}
+
+	provinces={
+		3500 13294
+	}
+
+	local_supplies=0.0 
+}

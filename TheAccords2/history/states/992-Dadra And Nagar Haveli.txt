@@ -1,0 +1,28 @@
+
+state={
+	id=992
+	name="STATE_992"
+	manpower = 38980
+
+	state_category = enclave
+
+	history={
+		owner = POR
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2 #was: 5
+		}
+		victory_points = {
+			13533 1 
+		}
+		victory_points = {
+			13534 1 
+		}
+	}
+
+	provinces={ 
+		13533 13534
+	}
+
+	local_supplies=0.0 
+}

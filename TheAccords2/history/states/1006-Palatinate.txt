@@ -1,0 +1,29 @@
+
+state={
+	id=1006
+	name="STATE_1006"
+	manpower = 868210
+
+	state_category = city
+
+
+	history={
+		owner = FRA
+		victory_points = { 11547 10 }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CGG
+		set_demilitarized_zone = yes
+		
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
+	}
+
+	provinces={
+		13405  3558 563 13406 11547 13618
+	}
+
+	local_supplies=0.0 
+}

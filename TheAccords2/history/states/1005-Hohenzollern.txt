@@ -1,0 +1,25 @@
+
+state={
+	id=1005
+	name="STATE_1005"
+	manpower = 74510
+
+	state_category = pastoral
+
+
+	history={
+		owner = CGG
+		
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GEE
+
+	}
+
+	provinces={
+		13610 6934
+	}
+
+	local_supplies=0.0 
+}

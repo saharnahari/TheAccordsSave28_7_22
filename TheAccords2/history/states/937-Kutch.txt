@@ -1,0 +1,29 @@
+
+state={
+	id=937
+	name="STATE_937"
+	manpower = 1140000
+	
+	
+	state_category = pastoral
+	resources={
+		oil=1
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			13461 3
+		}
+		buildings = {
+			infrastructure = 1	
+		}
+
+	}
+
+	provinces={
+		1061 7020 13461 13462 13559
+	}
+
+	local_supplies=0.0 
+}

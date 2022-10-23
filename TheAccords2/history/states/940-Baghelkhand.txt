@@ -1,0 +1,22 @@
+state={
+	id=940
+	name="STATE_940"
+	state_category = pastoral
+	
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10332 5
+		}
+	}
+	
+	provinces={
+		8120 10332 12480 
+	}
+	manpower=1350000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

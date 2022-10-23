@@ -1,0 +1,26 @@
+state={
+	id=981
+	name="STATE_981"
+	
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			10807 10 
+		}
+		victory_points = {
+			7080 3 
+		}
+	}
+	
+	provinces={
+		1949 7080 10807 13495 13496 13502 13503 
+	}
+	manpower=4315142
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

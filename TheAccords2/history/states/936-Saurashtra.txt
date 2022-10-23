@@ -1,0 +1,43 @@
+
+state={
+	id=936
+	name="STATE_936"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			13452 8 
+		}
+		victory_points = {
+			13453 3 
+		}
+		victory_points = {
+			7207 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10118 = {
+				naval_base = 4
+
+			}
+			7207 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1144 1190 4132 7207 10118 12037 13552 13553
+	}
+	manpower=2590200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
