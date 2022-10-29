@@ -1,0 +1,47 @@
+state={
+	id=913
+	name="STATE_913"
+	resources={
+		aluminium=2
+		steel = 6
+	}
+
+	state_category = large_city
+	
+	history={
+		owner = CGG
+		
+		victory_points = {
+			3530 15
+		}
+		victory_points = {
+			6568 15
+		}
+		victory_points = {
+			13266 10
+		}
+		victory_points = {
+			13642 5
+		}
+		victory_points = {
+			6581 10
+		}
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = CGG
+		
+
+	}
+
+	provinces={
+		6568 3530 6542 6712 11640 13265 13266 6581 13272 3692 3679 13268 13612 13638 13639 13640 13641 13642
+	}
+	manpower=2142500
+
+	local_supplies=0.0 
+}

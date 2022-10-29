@@ -1,0 +1,15 @@
+version="2.1"
+tags={
+	"Alternative History"
+	"Gameplay"
+	"Graphics"
+	"Historical"
+	"Ideologies"
+	"Events"
+	"Map"
+	"Military"
+	"National Focuses"
+	"Technologies"
+}
+name="TheAccordsNew"
+supported_version="1.12.4"

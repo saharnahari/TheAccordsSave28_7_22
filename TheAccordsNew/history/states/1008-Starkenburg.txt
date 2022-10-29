@@ -1,0 +1,24 @@
+
+state={
+	id=1008
+	name="STATE_1008"
+	manpower = 761480
+
+	state_category = large_town
+
+
+	history={
+		owner = CGG
+		victory_points = { 589 10 }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CGG
+	}
+
+	provinces={
+		589 13619 3574 13264
+	}
+
+	local_supplies=0.0 
+}
